@@ -2,20 +2,24 @@
 
 ## para rodar o projeto:
 
-### git clone https://github.com/ProjetoExp/ChatWeb-frontend.git
+- git clone https://github.com/ProjetoExp/ChatWeb-frontend.git
 
-### cd chatexp
+- #cd **ChatWeb-frontend/chatexp**
 
-### npm install
+- docker-compose up --build
 
-### npm install react-router-dom
+- em outro terminal rode **npm start**
 
-### npm install bootstrap
 
-#
+## importante!
 
-### lembrar de adcionar o .env com a PORT=8000 
+- ter  o docker e o docker compose instalados no sistema
 
-#
+- voce pode usar o lazydocker **em sistemas linux** para ter uma interface do docker
 
-### melhorar o readme depois
+
+
+
+ 
+
+

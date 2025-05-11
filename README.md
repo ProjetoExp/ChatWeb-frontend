@@ -6,16 +6,23 @@
 
 - #cd **ChatWeb-frontend/chatexp**
 
-- docker-compose up --build
+- docker build -t chatexp-app .
 
-- em outro terminal rode **npm start**
+- docker run **3000:3000** chatexp-app
 
-
-## importante!
+---
+⚠️ **Importante:** use http://localhost:3000 no seu navagador para visualizar o frontend do projeto
 
 - ter  o docker e o docker compose instalados no sistema
 
 - voce pode usar o lazydocker **em sistemas linux** para ter uma interface do docker
+---
+
+
+
+
+
+
 
 
 

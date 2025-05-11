@@ -10,7 +10,6 @@ COPY package*.json ./
 RUN npm install
 
 # Instala dependências adicionais
-RUN npm install react-router-dom bootstrap
 
 # Copia o restante do projeto
 COPY . .

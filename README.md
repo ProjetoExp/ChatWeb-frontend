@@ -6,33 +6,6 @@
 
 - #cd **ChatWeb-frontend/chatexp**
 
-- docker build -t chatexp-app .
-
-- docker -p run 3000:3000 chatexp-app
-
-# caso queira para rodar com npm start:
-
 - npm install
 
 - npm start
-
----
-⚠️ **Importante:** use http://localhost:3000 no seu navagador para visualizar o frontend do projeto
-
-- ter  o docker e o docker compose instalados no sistema
-
-- voce pode usar o lazydocker **em sistemas linux** para ter uma interface do docker
----
-
-
-
-
-
-
-
-
-
-
- 
-
-

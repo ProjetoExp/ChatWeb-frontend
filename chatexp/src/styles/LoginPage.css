@@ -1,8 +1,6 @@
 /* Container principal da página de login */
 .login-container {
-  background-color: #0c0c0c;
   min-height: 100vh;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 /* Logo da marca */
@@ -15,11 +13,6 @@
 /* Ícone da logo */
 .logo-icon {
   font-family: "Kosugi", Arial, Helvetica, sans-serif;
-}
-
-/* Texto da logo */
-.logo-text {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 /* Caixa principal do formulário de login */

@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/LoginPage.css"; // Importa o CSS personalizado
 
 function LoginPage() {

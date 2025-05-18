@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './pages/Home';
-import LoginPage from './pages/LoginPage';
+import Home from './pages/Home/Home.js';
+import LoginPage from './pages/Login/LoginPage.js';
+
 
 function App() {
   return (

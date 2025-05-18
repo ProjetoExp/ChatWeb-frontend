@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/LoginPage.css"; // Importa o CSS personalizado
+import '../../styles/Login.css'; // Importa o CSS personalizado
 
 function LoginPage() {
   return (
     // Container principal centralizado
-    <div className="d-flex flex-column justify-content-center align-items-center login-container">
+    <div className="d-flex flex-column justify-content-center align-items-center container-custom">
       {/* Logo da marca */}
       <div className="brand-logo text-center fs-1">
         <span className="logo-icon gradient-text">&lt;/&gt;</span>
@@ -12,8 +12,8 @@ function LoginPage() {
       </div>
 
       {/* Caixa de login */}
-      <div className="login-box">
-        <h2 className="login-title fs-2 mb-4">Login</h2>
+      <div className="box-custom">
+        <h2 className="tittle-custom fs-2 mb-4">Login</h2>
 
         <form>
           {/* Campo de email/usuário */}
@@ -64,7 +64,7 @@ function LoginPage() {
       </div>
 
       {/* Rodapé com opção de cadastro */}
-      <div className="login-footer-text text-center mt-3">
+      <div className="custom-footer-text text-center mt-3">
         Novo aqui?{" "}
         <a href="#" className="register-link">
           Cadastre-se

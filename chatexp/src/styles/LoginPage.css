@@ -1,6 +1,8 @@
-/* Container principal da página */
-.container-custom {
+/* Container principal da página de login */
+.login-container {
+  background-color: #0c0c0c;
   min-height: 100vh;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 /* Logo da marca */
@@ -15,8 +17,13 @@
   font-family: "Kosugi", Arial, Helvetica, sans-serif;
 }
 
-/* Caixa principal do formulário */
-.box-custom {
+/* Texto da logo */
+.logo-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* Caixa principal do formulário de login */
+.login-box {
   background-color: #464646;
   padding: 2.5rem;
   border-radius: 8px;
@@ -24,8 +31,8 @@
   max-width: 400px;
 }
 
-/* Título */
-.tittle-custom {
+/* Título do login */
+.login-title {
   color: #ffffff;
   font-weight: bold;
   font-size: 1.8rem;
@@ -142,7 +149,7 @@
 }
 
 /* Texto rodapé "Novo aqui?" */
-.custom-footer-text {
+.login-footer-text {
   color: #555; /* Texto sutil */
   font-size: 0.9rem;
 }

@@ -1,10 +1,3 @@
-.logo-icon {
-  font-family: 'Kosugi', monospace;
-  font-size: 2.5rem; /* ajuste conforme necessário */
-  font-weight: bold;
-}
-
-/* Texto com gradiente aplicado */
 .gradient-text {
   background: linear-gradient(
     90deg,

@@ -1,45 +1,48 @@
 import React from "react";
-import '../../styles/Login.css'; // Importa o CSS personalizado
+import './LoginPage.css'; // Importa o CSS personalizado
+import Logo from '../../components/Logo/Logo.js';
+import LogoText from '../../components/LogoText/LogoText.js';
+import GradientText from '../../components/GradientText/GradientText.js';
+import LoginBox from '../../components/LoginBox/LoginBox.js';
+import CustomButton from '../../components/CustomButton/CustomButton.js';
+import CustomInput from '../../components/CustomInput/CustomInput.js';
+import PageContainer from '../../components/PageContainer/PageContainer.js';
+import CustomTitle from '../../components/CustomTitle/CustomTitle.js';
 
 function LoginPage() {
   return (
-    // Container principal centralizado
-    <div className="d-flex flex-column justify-content-center align-items-center container-custom">
+    <PageContainer>
       {/* Logo da marca */}
-      <div className="brand-logo text-center fs-1">
-        <span className="logo-icon gradient-text">&lt;/&gt;</span>
-        <span className="logo-text gradient-text"> ChatExp</span>
+      <div className="d-flex flex-row align-items-center brand-logo text-center fs-1 mb-5">
+        <Logo />
+        <LogoText className="ms-2" />
       </div>
 
       {/* Caixa de login */}
-      <div className="box-custom">
-        <h2 className="tittle-custom fs-2 mb-4">Login</h2>
+      <LoginBox>
+        <CustomTitle>Login</CustomTitle>
 
         <form>
           {/* Campo de email/usuário */}
-          <div className="input-wrapper mb-4">
-            <i className="fas fa-user input-icon"></i>
-            <input
-              type="text"
-              className="form-control input-custom"
-              id="email"
-              placeholder="Email ou usuário"
-            />
-          </div>
+          <CustomInput
+            iconClass="fas fa-user"
+            type="text"
+            id="email"
+            placeholder="Email ou usuário"
+            required
+          />
 
           {/* Campo de senha */}
-          <div className="input-wrapper mb-4">
-            <i className="fas fa-lock input-icon"></i>
-            <input
-              type="password"
-              className="form-control input-custom"
-              id="senha"
-              placeholder="Senha"
-            />
-          </div>
+          <CustomInput
+            iconClass="fas fa-lock"
+            type="password"
+            id="senha"
+            placeholder="Senha"
+            required
+          />
 
           {/* Checkbox "Lembre-se de mim" */}
-          <div className="form-check custom-check text-white-50 mb-3">
+          <div className="form-check custom-check text-white-50 mb-3 mt-3">
             <input
               className="form-check-input"
               type="checkbox"
@@ -52,16 +55,16 @@ function LoginPage() {
           </div>
 
           {/* Botão de login com texto gradiente */}
-          <button type="submit" className="btn custom-btn w-100 fs-5 mb-2">
-            <span className="gradient-text">Entrar</span>
-          </button>
+          <CustomButton type="submit" className="w-100 fs-5 mb-2">
+            <GradientText>Entrar</GradientText>
+          </CustomButton>
 
           {/* Link para recuperação de senha */}
           <a href="#" className="forgot-link d-block text-center mt-2">
             Esqueceu a senha?
           </a>
         </form>
-      </div>
+      </LoginBox>
 
       {/* Rodapé com opção de cadastro */}
       <div className="custom-footer-text text-center mt-3">
@@ -70,7 +73,7 @@ function LoginPage() {
           Cadastre-se
         </a>
       </div>
-    </div>
+    </PageContainer>
   );
 }
 

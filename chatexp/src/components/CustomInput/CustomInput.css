@@ -1,0 +1,43 @@
+/* Estilo dos inputs customizados */
+.input-custom {
+    border: none;
+    outline: none;
+    background-color: #60605e;
+    padding-left: 36px; /* espaço para o ícone à esquerda */
+    color: #ffffff;
+    border-radius: 6px;
+    height: 45px;
+  }
+  
+  /* Wrapper do input para posicionar ícone */
+  .input-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Ícone dentro do input */
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #999998;
+    font-size: 1rem;
+    pointer-events: none; /* impede clique no ícone */
+  }
+  
+  /* Placeholder do input */
+  .input-custom::placeholder {
+    color: #999998;
+    font-weight: bold;
+  }
+  
+  /* Estilo do input quando está focado */
+  .input-custom:focus {
+    background-color: #333333;
+    color: #ffffff;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #f7c948;
+  }
+  

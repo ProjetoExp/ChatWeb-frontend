@@ -60,7 +60,7 @@ function LoginPage() {
           </CustomButton>
 
           {/* Link para recuperação de senha */}
-          <a href="#" className="forgot-link d-block text-center mt-2">
+          <a href="../ForgotPassword" className="forgot-link d-block text-center mt-2">
             Esqueceu a senha?
           </a>
         </form>

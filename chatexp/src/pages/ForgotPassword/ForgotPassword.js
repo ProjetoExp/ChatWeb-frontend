@@ -23,7 +23,7 @@ function ForgotPassword() {
             <LoginBox>
                 <CustomTitle>Recuperar a Senha</CustomTitle>
 
-                <form className="text-align-center">
+                <form>
                     {/* campo de inserção do e-mail */}
                     <CustomInput
                         iconClass="fas fa-envelope"

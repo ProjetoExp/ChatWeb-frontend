@@ -4,7 +4,7 @@ import GradientText from "../../components/GradientText/GradientText.js";
 
 const CustomButton = ({ children, className = "", ...props }) => {
   return (
-    <button type="submit" className={`btn btn-dark w-75 fs-5 mb-2 ${className}`}>
+    <button type="submit" className={`btn btn-dark w-100 fs-5 mb-2 ${className}`}>
       {children}
     </button>
   );

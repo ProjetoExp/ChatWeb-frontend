@@ -1,0 +1,114 @@
+/* Checkbox customizado - estilo do input */
+.custom-check .form-check-input {
+    background-color: #444;
+    /* fundo do checkbox */
+    border-color: #999;
+    /* borda */
+    width: 18px;
+    height: 18px;
+}
+
+/* Checkbox marcado */
+.custom-check .form-check-input:checked {
+    background-color: #f7c948;
+    /* cor ao marcar */
+    border-color: #f7c948;
+}
+
+/* Label do checkbox */
+.custom-check .form-check-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #999998;
+}
+
+/* Link "Esqueceu a senha?" */
+.forgot-link {
+    color: #aaa;
+    /* cinza claro */
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Link hover "Esqueceu a senha?" */
+.forgot-link:hover {
+    color: #f7c948;
+    /* tom dourado suave no hover */
+    text-decoration: underline;
+}
+
+/* Texto rodapé "Novo aqui?" */
+.custom-footer-text {
+    color: #555;
+    /* Texto sutil */
+    font-size: 0.9rem;
+}
+
+/* Link "Cadastre-se" */
+.register-link {
+    color: #fff;
+    /* Link branco */
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Link hover "Cadastre-se" */
+.register-link:hover {
+    color: #f7c948;
+    /* Dourado no hover */
+    text-decoration: underline;
+}
+
+/* Estilos para o container das regras da senha */
+.password-rules {
+    color: #999;
+    /* Cor suave para as regras */
+    font-size: 0.9rem;
+    /* Tamanho de fonte menor */
+    font-size: bold;
+}
+
+
+/* Estilos para a lista de regras */
+.password-rules ul {
+    padding-left: 1rem;
+    /* Indentação para os itens da lista */
+}
+
+.password-rules li {
+    margin-bottom: 0.2rem;
+    /* Espaçamento entre os itens */
+}
+
+/* Estilos para o container do campo de senha */
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Estilos para o campo de senha */
+.password-input {
+    padding-right: 3rem;
+    /* Espaço para o ícone de olho */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+/* Estilos para o ícone de olho */
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+.eye-icon:hover {
+    color: #f7c948;
+    /* Cor ao passar o mouse */
+}

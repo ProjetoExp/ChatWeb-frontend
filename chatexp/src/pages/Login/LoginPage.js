@@ -41,19 +41,6 @@ function LoginPage() {
             required
           />
 
-          {/* Checkbox "Lembre-se de mim" */}
-          <div className="form-check custom-check text-white-50 mb-3 mt-3">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              value=""
-              id="rememberMe"
-            />
-            <label className="form-check-label ms-2" htmlFor="rememberMe">
-              Lembre-se de mim
-            </label>
-          </div>
-
           {/* Botão de login com texto gradiente */}
           <CustomButton type="submit" className="w-100 fs-5 mb-2">
             <GradientText>Entrar</GradientText>

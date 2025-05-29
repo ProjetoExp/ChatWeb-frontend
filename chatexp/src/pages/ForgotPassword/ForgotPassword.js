@@ -1,6 +1,7 @@
 import React from "react";
 import '../../styles/index.css' //importando css customizado
 import './ForgotPassword.css'
+import './ForgotPassword.css'
 import PageContainer from "../../components/PageContainer/PageContainer";
 import LoginBox from "../../components/LoginBox/LoginBox";
 import Logo from "../../components/Logo/Logo";
@@ -22,10 +23,10 @@ function ForgotPassword() {
             <LoginBox>
                 <CustomTitle>Recuperar a Senha</CustomTitle>
 
-                <form>
+                <form className="text-align-center">
                     {/* campo de inserção do e-mail */}
                     <CustomInput
-                        iconClass="fas fa-user"
+                        iconClass="fas fa-envelope"
                         type="text"
                         id="email"
                         placeholder="Email ou usuário"
@@ -39,8 +40,8 @@ function ForgotPassword() {
                         senha
                     </p>
 
-                    <CustomButton type="submit" className="w-100 fs-5 mb-2">
-                        <GradientText>Entrar</GradientText>
+                    <CustomButton type="submit" >
+                        <GradientText>Enviar</GradientText>
                     </CustomButton>
                 </form>
             </LoginBox>
